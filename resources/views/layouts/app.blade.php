@@ -11,6 +11,10 @@
 </head>
 <body>
 
+    <div class="container">
+        {{ $slot }}
+    </div>
+
     @livewireScripts
 </body>
 </html>

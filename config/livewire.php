@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'asset_url'  => 'http://localhost/laravel-livewire/public/',
+    'asset_url'  => url('/'),
 
     /*
     |--------------------------------------------------------------------------
