@@ -16,9 +16,9 @@
     @foreach($tweets as $tweet)
         {{ $tweet->user->name }} - {{ $tweet->content }}
         @if($tweet->likes->count())
-            <a href="">Descutir</a>
+            <a href="#" wire:click.prevent="unlike({{ $tweet->id }})">Descutir</a>
         @else
-            <a href="">Curtir</a>
+            <a href="#" wire:click.prevent="like({{ $tweet->id }})">Curtir</a>
         @endif
         <br>
     @endforeach
