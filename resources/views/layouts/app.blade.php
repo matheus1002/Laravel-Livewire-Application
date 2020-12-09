@@ -18,8 +18,8 @@
         <!-- Scripts -->
         <script src="{{ \Illuminate\Support\Facades\URL::asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+    <body class="font-sans antialiased bg-gray-100">
+        <div class="container mx-auto h-200">
 {{--            @livewire('navigation-dropdown')--}}
 
 {{--            <!-- Page Heading -->--}}
